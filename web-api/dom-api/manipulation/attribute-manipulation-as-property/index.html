@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Demo Page</title>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1 id="main-title" class="title" title="Welcome">Hello World</h1>
+
+    <!-- Paragraph -->
+    <p id="para1" class="text" data-type="info">This is a paragraph</p>
+
+    <!-- Input -->
+    <input 
+        type="text" 
+        id="username" 
+        class="input-box" 
+        placeholder="Enter your name" 
+        value=""
+        required
+        data-id="101"
+    >
+
+    <!-- Button -->
+    <button 
+        id="submitBtn" 
+        class="btn primary" 
+        disabled 
+        title="Click to submit"
+        data-action="submit"
+    >
+        Submit
+    </button>
+
+    <!-- Image -->
+    <img 
+        id="profileImg" 
+        src="cat.jpg" 
+        alt="Profile Image" 
+        class="image"
+        width="200"
+        data-user="admin"
+    >
+
+    <!-- Link -->
+    <a 
+        href="https://google.com" 
+        id="googleLink" 
+        class="link"
+        target="_blank"
+        title="Go to Google"
+        data-external="true"
+    >
+        Visit Google
+    </a>
+<script src="./script.js"></script>
+</body>
+</html>
