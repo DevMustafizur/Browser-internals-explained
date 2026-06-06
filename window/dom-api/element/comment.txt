@@ -1,0 +1,213 @@
+##  Element কি? (DOM এ)
+
+ Element হলো DOM tree-এর সেই অংশ যেটা HTML tag কে represent করে।
+
+ -  HTML এর প্রতিটা visible tag-ই Element
+
+---
+
+##  Element কী কী হতে পারে?
+
+- `<div>`
+- `<p>`
+- `<button>`
+- `<img>`
+- `<h1> - <h6>`
+- `<span>`
+- `<a>`
+- `<ul>`, `<li>`
+- `<form>`, `<input>`
+- `<section>`, `<article>`
+
+---
+
+##  DOM এ Element কোথায় থাকে?
+
+Document → Node → Element
+
+element হলো Node এর একটি special type  
+কিন্তু সব Node Element না (Text, Comment থাকে)
+
+---
+
+
+// 3.  Element (HTML tag level)
+
+//  apply হয়: সব HTML elements (div, button, input)
+
+//  Properties
+// id
+// className
+// classList
+// innerHTML
+// outerHTML
+// children
+// firstElementChild
+// style
+// dataset
+// attributes
+//  Methods
+// getAttribute()
+// setAttribute()
+// removeAttribute()
+// hasAttribute()
+// closest()
+// matches()
+// remove()
+// append()
+// prepend()
+
+
+// 6.  ClassList (DOMTokenList)
+
+//  apply হয়: element.classList
+
+// 🔹 Methods
+// add()
+// remove()
+// toggle()
+// contains()
+// replace()
+
+
+
+// 4.  HTMLElement (UI specific behavior)
+
+//  apply হয়: interactive HTML elements
+
+//  Properties
+// hidden
+// contentEditable
+// tabIndex
+// offsetWidth
+// offsetHeight
+// clientWidth
+// clientHeight
+// scrollWidth
+// scrollHeight
+// 🔹 Methods
+// focus()
+// blur()
+
+
+
+
+// 7.  Layout API (Rendering engine)
+
+//  apply হয়: rendered elements
+
+//   Properties
+// offsetWidth
+// offsetHeight
+// clientWidth
+// clientHeight
+// scrollWidth
+// scrollHeight
+//   Method
+// getBoundingClientRect()
+
+
+_____________________________________________________________
+// 3. Element API
+
+// HTML Element এর জন্য।
+
+// Traversal Properties
+// element.parentElement
+
+// element.children
+
+// element.firstElementChild
+// element.lastElementChild
+
+// element.nextElementSibling
+// element.previousElementSibling
+// Content Properties
+// element.innerHTML
+// element.outerHTML
+
+// element.innerText
+// element.textContent
+// Attribute Methods
+
+// element.getAttribute()
+// element.setAttribute()
+
+// element.removeAttribute()
+// element.hasAttribute()
+// Attribute Properties
+// element.id
+// element.className
+// element.classList
+
+// element.dataset
+// Insert Methods
+
+// element.append()
+// element.prepend()
+
+// element.before()
+// element.after()
+
+// element.replaceWith()
+
+// element.remove()
+
+// Search Methods
+// element.querySelector()
+// element.querySelectorAll()
+
+// element.matches()
+// element.closest()
+
+// element.contains()
+
+// 4. Class API
+// element.classList.add()
+// element.classList.remove()
+
+// element.classList.toggle()
+
+// element.classList.contains()
+
+// element.classList.replace()
+
+// 5. Style API
+// Property
+// element.style
+// Example
+// element.style.color
+// element.style.backgroundColor
+// element.style.display
+
+// 6. Layout / Size API
+
+
+// element.clientWidth
+// element.clientHeight
+
+// element.offsetWidth
+// element.offsetHeight
+// element.offsetTop
+// element.offsetLeft
+
+// element.scrollWidth
+// element.scrollHeight
+// element.scrollTop
+// element.scrollLeft
+
+// Bounding Box
+// element.getBoundingClientRect()
+
+// 7. Form API
+// form.submit()
+// form.reset()
+
+// input.value
+
+// input.checked
+
+// input.focus()
+// input.blur()
+
+// input.select()
