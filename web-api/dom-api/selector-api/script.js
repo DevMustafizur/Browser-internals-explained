@@ -1,7 +1,0 @@
-const aboutSection = document.getElementById('about')
-const listItems = document.getElementsByClassName("list")
-const lists = document.getElementsByTagName("li")
-const aboutSectinoByQuery = document.querySelector("#about")
-const containerByQuery = document.querySelector(".container")
-const listByQuery = document.querySelectorAll("li")
-const listItemByQuery = document.querySelectorAll(".list")
