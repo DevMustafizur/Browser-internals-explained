@@ -1,0 +1,95 @@
+# BOM API
+
+## window-controll-api
+window.open()
+window.close()
+window.focus()
+window.blur()
+window.stop()
+window.print()
+
+## popup-api
+alert()
+confirm()
+prompt()
+
+## location-api
+location.href
+location.assign()
+location.replace()
+location.reload()
+location.protocol
+location.host
+location.hostname
+location.pathname
+location.search
+location.hash
+
+## history-api
+history.back()
+history.forward()
+history.go()
+history.length
+history.pushState()
+history.replaceState()
+history.state
+
+
+## navigator-api
+navigator.userAgent
+navigator.platform
+navigator.language
+navigator.languages
+navigator.onLine
+navigator.cookieEnabled
+navigator.geolocation
+navigator.clipboard
+navigator.mediaDevices
+
+
+## timing-api
+setTimeout()
+setInterval()
+clearTimeout()
+clearInterval()
+
+
+
+## window-size-api
+window.innerWidth
+window.innerHeight
+window.outerWidth
+window.outerHeight
+window.devicePixelRatio
+
+## Window-position-apis
+window.screenX
+window.screenY
+window.screenLeft
+window.screenTop
+
+
+## window-scroll-api
+window.scroll()
+window.scrollTo()
+window.scrollBy()
+window.scrollX
+window.scrollY
+window.pageXOffset
+window.pageYOffset
+
+
+## screen-api
+screen.width
+screen.height 
+screen.availWidth 
+screen.availHeight
+screen.colorDepth
+screen.pixelDepth 
+screen.availLeft
+screen.availTop 
+screen.orientation 
+screen.orientation.type 
+screen.orientation.angle 
+screen.orientation.lock() 
+screen.orientation.unlock()
